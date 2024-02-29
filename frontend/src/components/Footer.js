@@ -13,6 +13,7 @@ const Footer = () => {
             setemail('');
         }
         catch (e) {
+            console.log(e);
             alert("Already Subscribed!")
         }
     }
