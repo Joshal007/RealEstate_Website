@@ -8,7 +8,7 @@ const Footer = () => {
     const submitHadler = async (e) => {
         e.preventDefault();
         try {
-            const data = await axios.post("http://localhost:5000/postemail", { email })
+            const data = await axios.post("https://real-estate-website-beige.vercel.app/postemail", { email })
             alert(`Subscription Added for ${email}`);
             setemail('');
         }
