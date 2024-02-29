@@ -13,6 +13,8 @@
 }
 p{
   color: darkblue;
+  margin: 0rem;
+  padding: 0rem;
 }
 .btn1{
   margin: 1rem;
@@ -25,4 +27,7 @@ p{
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+.para{
+  padding: 0rem 10rem;
 }
