@@ -28,7 +28,7 @@ const Footer = () => {
                             meet seamless transactions, transforming
                             aspirations into achievements.</p>
                         <br />
-                        <button class="btn btn-lg btn-primary">Explore</button>
+                        <button class="btn btn-lg btn-outline-primary" style={{ color: "white" }}>Explore</button>
                     </div>
                 </div>
                 <div class="pricing-column col-lg-2 col-md-6">
