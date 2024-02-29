@@ -9,7 +9,11 @@ dotenv.config({
 })
 const app = express();
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: ["https://real-estate-website-frontend-six.vercel.app"],
+    methods: ["POST","GET"],
+    credentials: true
+}))
 
 const connectDatabase = async () => {
 
